@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SÀN GIAO DỊCH BẤT ĐỘNG SẢN THÁI VƯƠNG</title>
+
+    <link rel="icon"  type="image/png"  href="/assets/img/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.2-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/resetCss.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+
+    
+</head>
+<body>
+    <!-- Start: header and About US -->
+    <div class="header-and-contact">
+        <!-- Start: header -->
+        <div class="header">
+            <a class="header__logo" href="/">
+                <img class="header__logo-img" src="./assets/img/logo.png" alt="Logo">
+            </a>
+            <div class="header-navbar-container">
+                <ul class="header-navbar">
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-item__link">                        
+                            TRANG CHỦ
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/search.html" class="navbar-item__link">
+                            DỰ ÁN                        
+                        </a>
+                        <!-- Subnav 1 -->
+                        <ul class="subnav">
+                            <li class="subnav-item subnav-item--hot">
+                                <a class="subnav-text">CĂN HỘ</a>
+                            </li>
+                            <li class="subnav-item">
+                                <a class="subnav-text">NHÀ PHỐ</a>
+                            </li>
+                            <li class="subnav-item subnav-item--has-submenu">
+                                <a id="tour_package" class="subnav-text">BIỆT THỰ</a>
+                                <i class="arrow-right"></i>  
+
+                                <!-- Sub nav 2 --> 
+                                <ul class="subnav subnav-submenu ">                            
+                                    <li class="subnav-item subnav-item--best">
+                                        <a class="subnav-text">GIÁ CAO</a>                                    
+                                    </li>
+                                    <li class="subnav-item">
+                                        <a class="subnav-text">GIÁ THẤP</a>
+                                    </li>                      
+                                </ul> 
+                            </li>
+                            <li class="subnav-item ">
+                                <a class="subnav-text">ĐẤT NỀN</a>
+                            </li>
+                            <li class="subnav-item">
+                                <a class="subnav-text">VĂN PHÒNG</a>
+                            </li>
+                            
+                        </ul>
+    
+                    </li>
+                    <li class="navbar-item">
+                        <a href="shop.html" class="navbar-item__link">                        
+                            TIN TỨC
+                        </a>
+                    </li>
+                    <li class="navbar-item subnav-item--has-submenu">
+                        <a href="about-us.html" class="navbar-item__link">                        
+                            GIỚI THIỆU
+                        </a>
+                    
+                    </li>                  
+                    <li class="navbar-item">
+                        <a href="contact.html" class="navbar-item__link">
+                            LIÊN HỆ                        
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="header__btn">
+                <i class="ti-align-justify"></i>
+
+                <!-- Sidebar -->
+                <div class="sidebar">  
+                    <div class="sidebar-content">
+                        <div class="sidebar-title">
+                            <h3>DỰ ÁN</h3>
+                            <h2>NỔI BẬT</h2>
+                        </div>
+
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/berlin-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Berlin</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Europe
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--yellow" >GIÁ 700 $</div>
+                             </div>
+                        </div>
+
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/hongkong-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Hongkong</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Asia
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--red">GIÁ 500 $</div>
+                             </div>
+                        </div>
+
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/berlin-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">San Francisco</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     United States
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--purple">GIÁ 400 $</div>
+                             </div>
+                        </div>
+
+                        <div class="sidebar-package">
+                            <div class="sidebar-package-1">
+                                <h3 class="sidebar-package-continent">
+                                    Europe
+                                </h3>
+                                <h4 class="sidebar-package-quantity">
+                                    3 DỰ ÁN
+                                </h4>
+                            </div>
+                            <div class="sidebar-package-2">
+                                <p class="sidebar-package-title">
+                                    THÀNH PHỐ
+                                </p>
+                                <a class="sidebar-package-city">HA NOI</a>
+                                <a class="sidebar-package-city">THAI NGUYEN</a>
+                                <a class="sidebar-package-city">BAC NINH</a>
+                                <div class="sidebar-package-destination">
+                                    <a href="">XEM ĐỊA ĐIỂM</a>
+                                </div>
+
+                            </div>
+                        </div> 
+
+
+                        <div class="sidebar-title">
+                            <h3>DỰ ÁN</h3>
+                            <h2>MỚI NHẤT</h2>
+                        </div>
+
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/tuscany-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Tuscany</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Italy
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--green">GIÁ 730 $</div>
+                             </div>
+                        </div>
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/amsterdam-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Amsterdam</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Netherlands
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--yellow">GIÁ 1500 $</div>
+                             </div>
+                        </div>
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/phuket-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Phuket</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Thailandia
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--saphire">GIÁ 500 $</div>
+                             </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="sidebar-close-btn">
+                <i class="ti-close"></i>
+            </div>
+                
+
+        </div>
+        <div class="contact-title">
+            <div class="contact-title-inner">
+                <marquee behavior="alternate" width="10%">>></marquee>LIÊN HỆ<marquee behavior="alternate" width="10%"><< </marquee>
+            </div>
+        </div>        
+    </div>
+    <!-- End: header and Contact -->
+
+    <!-- Start: Contact App -->
+    <div class="contact-app">
+        <div class="contact-container container-1200">
+            <div class="contact__column">
+                <h2 class="contact__title">CAM KẾT DỊCH VỤ</h2>
+                <div class="contact__desc">Thái Vương am hiểu thị trường và thấu hiểu nhu cầu của khách hàng khi lựa chọn căn hộ hay biệt thự, Thái Vương sẽ giúp bạn tìm thấy đúng sản phẩm như bạn mong muốn để an cư khởi đầu cuộc sống hạnh phúc, cung cấp cho bạn những cơ hội đầu tư tuyệt vời để tận hưởng cuộc sống tương lai thịnh vượng.</div>
+                <h4 class="contact__input-label">Name</h4>
+                <input type="text" class="contact__input"></input>
+                <h4 class="contact__input-label">Email</h4>
+                <input type="email" class="contact__input"></input >
+                <h4 class="contact__input-label">Message</h4>
+                <textarea name="contact__textarea"  class="contact__textarea" cols="50" rows="5"></textarea>
+                <div class="contact__btn">
+                    <button class="btn ">Gửi ngay</button>                   
+                </div>
+            </div>
+
+            <div class="contact__column">
+               
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6304.829986131271!2d-122.4746968033092!3d37.80374752160443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586e6302615a1%3A0x86bd130251757c00!2sStorey+Ave%2C+San+Francisco%2C+CA+94129!5e0!3m2!1sen!2sus!4v1435826432051" width="100%" height="280" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe>
+                <div class="contact__info">
+                    <div class="contact__info-column">
+                        <div class="contact__info-row">
+                            <div class="contact__info-label">Địa chỉ :</div>
+                            <div class="contact__info-value">Avenue 234</div>
+                        </div>
+                        <div class="contact__info-row">
+                            <div class="contact__info-label">Thành phố :</div>
+                            <div class="contact__info-value">New York - US</div>
+                        </div>
+                        <div class="contact__info-row">
+                            <div class="contact__info-label">Check-In :</div>
+                            <div class="contact__info-value">15:00 am</div>
+                        </div>
+                    </div>
+                    <div class="contact__info-column">
+                        <div class="contact__info-row">
+                            <div class="contact__info-label">Số điện thoại :</div>
+                            <div class="contact__info-value">00 837920234</div>
+                        </div>
+                        <div class="contact__info-row">
+                            <div class="contact__info-label">Email :</div>
+                            <div class="contact__info-value">info@travel.com</div>
+                        </div>
+                        <div class="contact__info-row">
+                            <div class="contact__info-label">Check-Out :</div>
+                            <div class="contact__info-value">11:00 am</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__time">
+                    AVAILABLE AT 10AM – 8PM
+                </div>
+                <div class="contact__phone-number">
+                    + 202 555 0116
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End: Contact App -->
+
+    <!-- Start: Footer -->
+    <footer class="footer">
+        <div class="footer-inner container-1200">
+            <div class="footer-container">
+                <div class="footer__user-email">
+                    <div class="footer-user-emai__text">
+                        <h4 class="footer-user-emai__title">Đăng ký nhận tin</h4>
+                        <h2 class="footer-user-emai__slogan">thaivuong.com.vn</h2>
+                    </div>
+                    <div class="footer-user-emai__info">
+                        <input type="email" class="footer-user-emai__input">
+                        <button type="submit" class="footer-user-emai__btn btn btn--big">GỬI</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-container footer-container-contact">                
+                <div class="footer__socials-list">
+                    <div class="footer__website-logo">
+                        <img src="/assets/img/website-logo-color.png" alt="">        
+                    </div>
+                    <p class="footer__website-des">
+                        Chi nhánh TP. Hồ Chí Minh
+                        Tầng 3, Tòa nhà Viettel Complex, 285
+                        Cách Mạng Tháng Tám, Phường 12, Quận 10, TP. Hồ Chí Minh Điện
+                        thoại: 0904 893 279 - 0904 946 163.
+                    </p>
+                    <ul class="footer__socials">
+                        <li class="footer_social-item"><i class="ti-twitter-alt"></i></li>
+                        <li class="footer_social-item"><i class="ti-youtube"></i></li>
+                        <li class="footer_social-item"><i class="ti-facebook"></i></li>
+                        <li class="footer_social-item"><i class="ti-vimeo-alt"></i></li>
+                    </ul>
+                </div>  
+                <div class="footer-links">
+                    <h3 class="footer-links__title">
+                        HƯỚNG DẪN
+                    </h3>
+
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>                            
+                            <h5 class="footer-links__text">Hỗ trợ</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Câu hỏi</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Thông báo</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Liên hệ</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Sitemap</h5>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-links__title">
+                        QUY ĐỊNH
+                    </h3>
+
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>                            
+                            <h5 class="footer-links__text">Quy chế</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Điều khoản</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Chính sách</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Khiếu nại</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Góp ý</h5>
+                        </li>
+                    </ul>
+                </div> 
+                
+            </div>
+            <div class="footer-container footer-container-copyright">
+                <div class="footer-container-copyright__slogan">SÀN GIAO DỊCH BẤT ĐỘNG SẢN THÁI VƯƠNG</div>
+                <div class="footer-container-copyright__text">Copyright© 2022 Thai Vuong. All rights Reservered</div>
+            </div>
+        </div>
+    </footer>
+    <!-- End: Footer -->
+
+    <!-- Start: zalo, fb, sdt button -->
+    <div class="social-button">
+        <div class="social-button-content">
+           
+            <a href="https://www.facebook.com/messages/t/100071785302846" target="_blank" class="mes">
+              <img src="https://nocodebuilding.com/wp-content/uploads/2020/07/fb.png" alt="Chat Messenger">
+              </a>
+            <a href="http://zalo.me/0334241843" target="_blank" class="zalo">
+               <img src="https://nocodebuilding.com/wp-content/uploads/2020/07/zl.png" alt="Chat Zalo">
+              </a>
+        </div>
+        <div class="hotline-phone-ring-wrap">
+          <div class="hotline-phone-ring">
+              <div class="hotline-phone-ring-circle"></div>
+              <div class="hotline-phone-ring-circle-fill"></div>
+              <div class="hotline-phone-ring-img-circle">
+              <a href="tel:0334241843" class="pps-btn-img">
+                  <img src="https://nocodebuilding.com/wp-content/uploads/2020/07/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+              </a>
+              </div>
+          </div>
+          <div class="hotline-bar">
+              <a href="tel:0334241843">
+                  <span class="text-hotline">0334 241 843</span>
+              </a>
+          </div>
+      </div>
+      <!-- End: zalo, fb, sdt button -->
+    
+
+    <script src="./assets/js/index.js"></script>    
+   
+</body>
+</html>

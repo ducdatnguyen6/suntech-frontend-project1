@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SÀN GIAO DỊCH BẤT ĐỘNG SẢN THÁI VƯƠNG</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon"  type="image/png"  href="/assets/img/favicon.jpg">
+    
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/resetCss.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive/base-responsive.css">
+    <link rel="stylesheet" href="./assets/css/responsive/index-responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="header-and-search">
+        <div class="header">
+            <a class="header__logo" href="/">
+                <img class="header__logo-img" src="./assets/img/logo.png" alt="Logo">
+            </a>
+            <input type="checkbox" name="" id="header-navbar-container__btn">
+            <div  class="header-navbar-container">
+                <ul class="header-navbar">
+                    <li class="navbar-item">
+                        <a href="/index.html" class="navbar-item__link">                        
+                            TRANG CHỦ
+                        </a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="/search.html" class="navbar-item__link">
+                            DỰ ÁN                        
+                        </a>
+                        <!-- Subnav 1 -->
+                        <ul class="subnav">
+                            <li class="subnav-item subnav-item--hot">
+                                <a class="subnav-text">CĂN HỘ</a>
+                            </li>
+                            <li class="subnav-item">
+                                <a class="subnav-text">NHÀ PHỐ</a>
+                            </li>
+                            <li class="subnav-item subnav-item--has-submenu">
+                                <a id="tour_package" class="subnav-text">BIỆT THỰ</a>
+                                <i class="arrow-right"></i>  
+
+                                <!-- Sub nav 2 --> 
+                                <ul class="subnav subnav-submenu ">                            
+                                    <li class="subnav-item subnav-item--best">
+                                        <a class="subnav-text">GIÁ CAO</a>                                    
+                                    </li>
+                                    <li class="subnav-item">
+                                        <a class="subnav-text">GIÁ THẤP</a>
+                                    </li>                       
+                                </ul> 
+                            </li>
+                            <li class="subnav-item ">
+                                <a class="subnav-text">ĐẤT NỀN</a>
+                            </li>
+                            <li class="subnav-item">
+                                <a class="subnav-text">VĂN PHÒNG</a>
+                            </li>
+                            
+                        </ul>
+    
+                    </li>
+                    <li class="navbar-item">
+                        <a href="shop.html" class="navbar-item__link">                        
+                            TIN TỨC
+                        </a>
+                    </li>
+                    <li class="navbar-item subnav-item--has-submenu">
+                        <a href="about-us.html" class="navbar-item__link">                        
+                            GIỚI THIỆU
+                        </a>
+    
+                    </li>
+                    <li class="navbar-item">
+                        <a href="contact.html" class="navbar-item__link">
+                            LIÊN HỆ                        
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+            
+            <label for="header-navbar-container__btn" class="header__btn">
+                <i class="ti-align-justify"></i>
+
+                <!-- Sidebar -->
+                <div class="sidebar">  
+                    <div class="sidebar-content">
+                        <div class="sidebar-title">
+                            <h3>DỰ ÁN</h3>
+                            <h2>NỔI BẬT</h2>
+                        </div>
+
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/berlin-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Berlin</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Europe
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--yellow" >GIÁ 700 $</div>
+                             </div>
+                        </div>
+
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/hongkong-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Hongkong</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Asia
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--red">GIÁ 500 $</div>
+                             </div>
+                        </div>
+
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/berlin-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">San Francisco</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     United States
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--purple">GIÁ 400 $</div>
+                             </div>
+                        </div>
+
+                        <div class="sidebar-package">
+                            <div class="sidebar-package-1">
+                                <h3 class="sidebar-package-continent">
+                                    Europe
+                                </h3>
+                                <h4 class="sidebar-package-quantity">
+                                    3 DỰ ÁN
+                                </h4>
+                            </div>
+                            <div class="sidebar-package-2">
+                                <p class="sidebar-package-title">
+                                    THÀNH PHỐ
+                                </p>
+                                <a class="sidebar-package-city">HA NOI</a>
+                                <a class="sidebar-package-city">THAI NGUYEN</a>
+                                <a class="sidebar-package-city">BAC NINH</a>
+                                <div class="sidebar-package-destination">
+                                    <a href="">XEM ĐIỂM ĐẾN</a>
+                                </div>
+
+                            </div>
+                        </div> 
+
+
+                        <div class="sidebar-title">
+                            <h3>DỰ ÁN</h3>
+                            <h2>MỚI NHẤT</h2>
+                        </div>
+
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/tuscany-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Tuscany</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Italy
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--green">GIÁ 730 $</div>
+                             </div>
+                        </div>
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/amsterdam-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Amsterdam</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Netherlands
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--yellow">GIÁ 1500 $</div>
+                             </div>
+                        </div>
+                        <div class="sidebar-item">
+                            <img class="sidebar-item__img" alt="" src="./assets/img/phuket-small.jpg">
+                             
+                            <div class="sidebar-item__infor">
+                                 <h3 class="sidebar-item__city">Phuket</h3>
+                                 <div class="sidebar-item__continent">
+                                     <i class="ti-location-pin"></i>
+                                     Thailandia
+                                </div>
+                                <div class="sidebar-item__price sidebar-item__price--saphire">GIÁ 500 $</div>
+                             </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </label>
+
+            <label for="header-navbar-container__btn" class="header-navbar-container__close-btn">
+                <i class="ti-close"></i>
+
+            </label>
+            <div class="sidebar-close-btn">
+                <i class="ti-close"></i>
+            </div>  
+        </div>
+        <div class="search container">
+            <h1 class="search-title">THÁI VƯƠNG</h1>
+            <h4 class="search-subtitle">GROUP</h4>
+            <div class="search-input">
+                <select id="cars" name="carlist" form="carform" class="search-input__options">
+                    <option  value="destination">Chọn địa điểm...</option>
+                    <option value="europe">Europe</option>
+                    <option value="opel">Asian</option>
+                    <option value="audi">United States</option>
+                    <option value="audi">Oceania</option>
+                </select>
+                <i class="ti-search search-input__icon"></i>
+            </div>
+            <div class="search-type">
+                <div class="search-type__relax search-type__item">
+                    <img src="./assets/img/search-type-relax.png" alt="" class="search-type__img">
+                    <h4 class="search-type__text">RELAX</h4>
+                </div>
+                <div class="search-type__cultural search-type__item">
+                    <img src="./assets/img/search-type-cultural.png" alt="" class="search-type__img">
+                    <h4 class="search-type__text">TRUE</h4>
+                </div>
+                <div class="search-type__sport search-type__item">
+                    <img src="./assets/img/search-type-sport.png" alt="" class="search-type__img">
+                    <h4 class="search-type__text">LUXURIOUS </h4>
+                </div>
+                <div class="search-type__history search-type__item">
+                    <img src="./assets/img/search-type-history.png" alt="" class="search-type__img">
+                    <h4 class="search-type__text">HISTORY</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="content container">
+        <div class="container-1200">
+            <div class="content-title">
+                <h4 class="content-title--small uppcercase letter-spacing-2">ĐỀ XUẤT</h4>
+                <h2 class="content-title--big uppercase  ">CÁC DỰ ÁN CỦA CHÚNG TÔI</h2>
+            </div>
+
+            <!-- packages -->
+            <div class="content-pakages">   
+                <div class="content-packages__row">
+                        <!-- Package item -->
+                    <div class="content-pakages__item container__col-third">
+                        <div class="content-package-1 content-package--europe">
+                            <div class="content-package__icon">
+                                <img src="/assets/img/package-icon/arch.png" alt="">
+                            </div>
+                            <h3 class="content-package-continent">
+                                WYNDHAM SOLEIL ĐÀ NẴNG
+                            </h3>
+                            <h4 class="content-package-quantity">
+                                3 HẠNG MỤC
+                            </h4>
+                        </div>
+                        <div class="content-package-2">
+                            <p class="content-package-title">
+                                DỰ ÁN
+                            </p>
+                            <a class="content-package-city" href="#">Berlin</a>
+                            <a class="content-package-city" href="#">Amsterdam</a>
+                            <a class="content-package-city" href="#">Tuscany</a>
+                            <div class="content-package-destination">
+                                <a href="http://b-home.vn/project/wyndham-soleil-da-nang/">Xem chi tiết</a>
+                            </div>    
+                        </div>
+                    </div> 
+                    <div class="content-pakages__item container__col-third">
+                        <div class="content-package-1 content-package--thailand">
+                            <div class="content-package__icon">
+                                <img src="/assets/img/package-icon/buddha.png" alt="">
+                            </div>
+                            <h3 class="content-package-continent">
+                                SUNBAY PARK HOTEL & RESORT PHAN RANG
+                            </h3>
+                            <h4 class="content-package-quantity">
+                                1 HẠNG MỤC
+                            </h4>
+                        </div>
+                        <div class="content-package-2">
+                            <p class="content-package-title">
+                                DỰ ÁN
+                            </p>                        
+                            <a class="content-package-city">Phuket</a>
+                            <div class="content-package-destination">
+                                <a href="#">Xem chi tiết</a>
+                            </div>    
+                        </div>
+                    </div> 
+                    <div class="content-pakages__item container__col-third">
+                        <div class="content-package-1  content-package--asia">
+                            <div class="content-package__icon">
+                                <img src="/assets/img/package-icon/torii-gate.png" alt="">
+                            </div>
+                            <h3 class="content-package-continent">
+                                PREMIUM SHOPHOUSE TÂY BẮC ĐÀ NẴNG
+                            </h3>
+                            <h4 class="content-package-quantity">
+                                2 HẠNG MỤC
+                            </h4>
+                        </div>
+                        <div class="content-package-2">
+                            <p class="content-package-title">
+                                DỰ ÁN
+                            </p>
+                            <a class="content-package-city" href="#">Hongkong</a>
+                            <a class="content-package-city" href="#"> Phuket</a>
+                            <div class="content-package-destination">
+                                <a href="#">Xem chi tiết</a>
+                            </div>    
+                        </div>
+                    </div>   
+                                   
+                </div>
+    
+                <div class="content-packages__row">
+                    <div class="content-pakages__item container__col-third">
+                        <div class="content-package-1 content-package--italy ">
+                            <div class="content-package__icon">
+                                <img src="/assets/img/package-icon/pisa.png" alt="">
+                            </div>
+                            <h3 class="content-package-continent">
+                                Italy
+                            </h3>
+                            <h4 class="content-package-quantity">
+                                1 HẠNG MỤC
+                            </h4>
+                        </div>
+                        <div class="content-package-2">
+                            <p class="content-package-title">
+                                DỰ ÁN
+                            </p>
+                            <a class="content-package-city">Tuscany</a>
+                            <div class="content-package-destination">
+                                <a href="#">Xem chi tiết</a>
+                            </div>    
+                        </div>
+                    </div> 
+                    <div class="content-pakages__item container__col-third">
+                        <div class="content-package-1 content-package--netherland">
+                            <div class="content-package__icon">
+                                <img src="/assets/img/package-icon/london-eye.png" alt="">
+                            </div>
+                            <h3 class="content-package-continent">
+                                Netherlands
+                            </h3>
+                            <h4 class="content-package-quantity">
+                                1 HẠNG MỤC
+                            </h4>
+                        </div>
+                        <div class="content-package-2">
+                            <p class="content-package-title">
+                                DỰ ÁN
+                            </p>                            
+                            <a class="content-package-city" href="#">Amsterdam</a>                            
+                            <div class="content-package-destination">
+                                <a href="#">Xem chi tiết</a>
+                            </div>    
+                        </div>
+                    </div> 
+                    <div class="content-pakages__item container__col-third">
+                        <div class="content-package-1 content-package--unitedstate">
+                            <div class="content-package__icon">
+                                <img src="/assets/img/package-icon/golden-gate.png" alt="">
+                            </div>
+                            <h3 class="content-package-continent">
+                                United States
+                            </h3>
+                            <h4 class="content-package-quantity">
+                                1 HẠNG MỤC
+                            </h4>
+                        </div>
+                        <div class="content-package-2">
+                            <p class="content-package-title">
+                                DỰ ÁN
+                            </p>
+                            <a class="content-package-city" href="#">San Francisco</a>
+                            <div class="content-package-destination">
+                                <a href="#">Xem chi tiết</a>
+                            </div>    
+                        </div>
+                    </div>  
+                </div>       
+            </div>
+        </div>
+
+        <!-- All packages -->
+        <div class="content-all-packages">           
+            <div class="content-all-packages__title">
+                <div class="content-all-packages__title-1">HẠNG MỤC</div>
+                <div class="content-all-packages__title-2">DỰ ÁN</div>
+            </div>
+            <div class="content-all-packages__btn btn btn--big">
+                <a href="">XEM TẤT CẢ</a>
+            </div>
+        </div>
+
+        <!-- Beaches -->
+        <div class="container-1200 content-beaches">
+            <div class="content-beaches__info">
+                <h4 class="content-beaches__place uppercase">THÁI NGUYÊN</h4>
+                <h2 class="content-beaches__title uppercase">BEST CATEGORIES</h2>
+                <p class="content-beaches__desc">                    
+                    Vị trí: Mặt tiền đường nhựa lớn, kết nối giao thông thuận tiện. Kết nối các thành phố và trung tâm như: TP Long Khánh, TP sân bay quốc tế Long Thành, Trung tâm du lịch biển Hồ Tràm, TP cảng biển Phú Mỹ và trung tâm công nghiệp Châu Đức Bà Rịa - Vũng Tàu.
+                    Chỉ 1h30 đi xe từ TPHCM, 1h tới TP Biên Hòa và 40 phút đi xe tới TP biển Vũng Tàu, 10 phút tới cao tốc Dầu Giây - Phan Thiết.
+                </p>
+                <div class="content-beaches__price">
+                    <span class="content-beaches__old-price">800</span>
+                    <span class="content-beaches__new-price">500 $</span>
+                    <span class="content-beaches__price-unit uppercase"> / FOR PERSON</span>
+                </div>
+                <button class="btn content-beaches__btn uppercase">XEM NGAY</button>
+            </div>
+
+            
+            <div class="content-beaches__slider">
+                <div class="content-beaches__slider-inner">
+                    <!-- slide btn -->
+                    <div class="content-beaches__slider-btn">
+                        <div class="content-beaches__slider-btn-item content-beaches__slider-btn-item--active" id="slide-btn-1"></div>
+                        <div class="content-beaches__slider-btn-item" id="slide-btn-2"></div>
+                        <div class="content-beaches__slider-btn-item" id="slide-btn-3"></div>
+                    </div>
+                    <div class="content-beaches__slides">
+                        <div  class="content-beaches__slide ">
+                            <img class ="content-beaches__slide-img" src="/assets/img/slider/slider-1.jpg" alt="Slide image">
+                        </div>
+                        <div  class="content-beaches__slide ">
+                            <img class ="content-beaches__slide-img" src="/assets/img/slider/slider-2.jpg" alt="Slide image">                     
+                        </div>
+                        <div  class="content-beaches__slide content-beaches__slide--active">
+                            <img class ="content-beaches__slide-img" src="/assets/img/slider/slider-3.jpg" alt="Slide image">                    
+                        </div>
+                    
+                    </div>
+                </div>
+                
+
+                 
+                <div class="content-beaches__countdown">
+                    <div class="content-beaches__time-day">
+                        <h2 class="content-beaches__time-number">000</h2>
+                        <h4 class="content-beaches__time-unit">days</h4>
+                    </div>
+                    <h2 class="content-beaches__time-separate">/</h2>
+                    <div class="content-beaches__time-hour">
+                      <h2 class="content-beaches__time-number">000</h2>
+                      <h4 class="content-beaches__time-unit">hours</h4>
+                    </div>
+                    <h2 class="content-beaches__time-separate">/</h2>
+                    <div class="content-beaches__time-minute">
+                      <h2 class="content-beaches__time-number">000</h2>
+                      <h4 class="content-beaches__time-unit">minutes</h4>
+                    </div>
+                    <h2 class="content-beaches__time-separate">/</h2>
+                    <div class="content-beaches__time-second">
+                      <h2 class="content-beaches__time-number">000</h2>
+                      <h4 class="content-beaches__time-unit">seconds</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Tour  -->
+        <div class="container-1200 content-tour">
+            <div class="content-tour__item">
+                <div class="content-tour__icon">
+                    <img src="/assets/img/content-tour/icon-around.png" alt="" class="content-tour__icon-img">
+                </div>
+                <div class="content-tour__info">
+                    <div class="content-tour__title">Đối với khách hàng</div>
+                    <p class="content-tour__desc">Cung cấp các sản phẩm dịch vụ chất lượng với dịch vụ tốt nhất.</p>
+                    <a href="" class="content-tour__btn">View More</a>
+                </div>
+            </div>
+            <div class="content-tour__item">
+                <div class="content-tour__icon">
+                    <img src="/assets/img/content-tour/icon-boat.png" alt="" class="content-tour__icon-img">
+                </div>
+                <div class="content-tour__info">
+                    <div class="content-tour__title">Đối với đối tác</div>
+                    <p class="content-tour__desc">Đề cao tinh thần hợp tác cùng phát triển, cam kết trở thành người đồng hành số 1 của các đối tác, luôn gia tăng các giá trị đầu tư hấp dẫn và bền vững.</p>
+                    <a href="" class="content-tour__btn">View More</a>
+                </div>
+            </div>
+            <div class="content-tour__item">
+                <div class="content-tour__icon">
+                    <img src="/assets/img/content-tour/icon-landmark.png" alt="" class="content-tour__icon-img">
+                </div>
+                <div class="content-tour__info">
+                    <div class="content-tour__title">Đối với xã hội</div>
+                    <p class="content-tour__desc">Hài hoà lợi ích doanh nghiệp và lợi ích xã hội, đóng góp tích cực vào các hoạt động hướng về cộng đồng và môi trường.</p>
+                    <a href="" class="content-tour__btn">View More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Discover -->
+        <div class="content-discover">
+            <div class="content-discover__item content-discover__item-left ">
+                <h4 class="content-discover__title">Album thực tế</h4>
+                <h2 class="content-discover__place">IMAGE</h2>
+                <button class="btn btn--big content-discover__btn">VÀO</button>
+            </div>
+            <div class="content-discover__item content-discover__item-right">
+                <h4 class="content-discover__title">Album thực tế</h4>
+                <h2 class="content-discover__place">VIDEO</h2>
+                <button class="btn btn--big content-discover__btn">VÀO</button>
+            </div>
+        </div>
+
+        <div class="container-1200">
+            <div class="content-title">
+                <h4 class="content-title--small uppcercase letter-spacing-2">KHUYẾN MẠI</h4>
+                <h2 class="content-title--big uppercase ">CÁC DỰ ÁN CỦA CHÚNG TÔI</h2>
+            </div>
+
+            <div class="content-promotion-pakages container">                
+                        <!-- Package item -->
+                <div class="promotion-package__item promotion-package__item--yellow">
+                    <div class="promotion-package__item-container">
+                        <div class="promotion-package__img">
+                            <img class="promotion-package__img-background" src="/assets/img/content-package/package-1.jpg" alt="">
+                            <a class="promotion-package__icon"><img  src="/assets/img/package-icon/arch.png"></img></a>
+                            
+                        </div>
+                        <div class="promotion-package__info">                                
+                            <div class="promotion-package__place">
+                                <h2 class="promotion-package__city">
+                                    Berlin
+                                </h2>
+                                <h4 class="promotion-package__continent">
+                                    <i class="ti-location-pin"></i>
+                                    Europe
+                                </h4>
+                            </div>
+                            
+                            <div class="promotion-package__price">
+                                <div class="promotion-package__special-info">                                        
+                                        <h4 class="promotion-package__info-text-1">Diện tích: 50m</h4>
+                                        <h4 class="promotion-package__info-text-2">Loại hình: Vila</h4>                                      
+                                </div>
+                                <div class="promotion-package__price-number">
+                                    <div class="promotion-package__price-number--old"></div>
+                                    <div class="promotion-package__price-number--new">700 $</div>
+                                    
+                                </div>
+                            </div>
+                            <p class="promotion-package__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                            <button class="btn btn--small  promotion-package__btn"><a href="">CHI TIẾT</a></button>
+                        </div>
+                    </div>                        
+                </div>     
+                <div class="promotion-package__item promotion-package__item--pink">
+                    <div class="promotion-package__item-container">
+                        <div class="promotion-package__img">
+                            <img class="promotion-package__img-background" src="/assets/img/content-package/package-6.jpg" alt="">
+                            <a class="promotion-package__icon"><img  src="/assets/img/package-icon/torii-gate.png"></img></a>
+
+                        </div>
+                        <div class="promotion-package__info">                                
+                            <div class="promotion-package__place">
+                                <h2 class="promotion-package__city">
+                                    Hong Kong
+                                </h2>
+                                <h4 class="promotion-package__continent">
+                                    <i class="ti-location-pin"></i>
+                                    Asia
+                                </h4>
+                            </div>
+                            
+                            <div class="promotion-package__price">
+                                <div class="promotion-package__special-info">                                        
+                                    <h4 class="promotion-package__info-text-1">Diện tích: 50m</h4>
+                                    <h4 class="promotion-package__info-text-2">Loại hình: Shoptel</h4>                                      
+                                </div>
+                                <div class="promotion-package__price-number">
+                                    <div class="promotion-package__price-number--old">1000 </div>
+                                    <div class="promotion-package__price-number--new">500 $</div>
+                                </div>
+                            </div>
+                            <p class="promotion-package__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                            <button class="btn btn--small  promotion-package__btn"><a href="">CHI TIẾT</a></button>
+
+                        </div>
+                    </div>                        
+                </div>    
+                <div class="promotion-package__item promotion-package__item--purple">
+                    <div class="promotion-package__item-container">
+                        <div class="promotion-package__img">
+                            <img class="promotion-package__img-background" src="/assets/img/content-package/package-2.jpg" alt="">
+                            <a class="promotion-package__icon"><img  src="/assets/img/package-icon/golden-gate.png"></img></a>
+
+                        </div>
+                        <div class="promotion-package__info">                                
+                            <div class="promotion-package__place">
+                                <h2 class="promotion-package__city">
+                                    San Francisco
+                                </h2>
+                                <h4 class="promotion-package__continent">
+                                    <i class="ti-location-pin"></i>
+                                    United States
+                                </h4>
+                            </div>
+                            
+                            <div class="promotion-package__price">
+                                <div class="promotion-package__special-info">                                        
+                                    <h4 class="promotion-package__info-text-1">Diện tích: 50m</h4>
+                                    <h4 class="promotion-package__info-text-2">Loại hình: Shoptel</h4>                                       
+                                </div>
+                                <div class="promotion-package__price-number">
+                                    <div class="promotion-package__price-number--old"></div>
+                                    <div class="promotion-package__price-number--new">400 $</div>
+                                </div>
+                            </div>
+                            <p class="promotion-package__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                            <button class="btn btn--small  promotion-package__btn"><a href="">CHI TIẾT</a></button>
+
+                        </div>
+                    </div>                        
+                </div>         
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <!-- Start: Footer -->
+    <footer class="footer">
+        <div class="footer-inner container-1200">
+            <div class="footer-container">
+                <div class="footer__user-email">
+                    <div class="footer-user-emai__text">
+                        <h4 class="footer-user-emai__title">Đăng ký nhận tin</h4>
+                        <h2 class="footer-user-emai__slogan">thaivuong.com.vn</h2>
+                    </div>
+                    <div class="footer-user-emai__info">
+                        <input type="email" class="footer-user-emai__input">
+                        <button type="submit" class="footer-user-emai__btn btn btn--big">GỬI</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-container footer-container-contact">                
+                <div class="footer__socials-list">
+                    <div class="footer__website-logo">
+                        <img src="/assets/img/website-logo-color.png" alt="">        
+                    </div>
+                    <p class="footer__website-des">
+                        Chi nhánh TP. Hồ Chí Minh
+                        Tầng 3, Tòa nhà Viettel Complex, 285
+                        Cách Mạng Tháng Tám, Phường 12, Quận 10, TP. Hồ Chí Minh Điện
+                        thoại: 0904 893 279 - 0904 946 163.
+                    </p>
+                    <ul class="footer__socials">
+                        <li class="footer_social-item"><i class="ti-twitter-alt"></i></li>
+                        <li class="footer_social-item"><i class="ti-youtube"></i></li>
+                        <li class="footer_social-item"><i class="ti-facebook"></i></li>
+                        <li class="footer_social-item"><i class="ti-vimeo-alt"></i></li>
+                    </ul>
+                </div>  
+                <div class="footer-links">
+                    <h3 class="footer-links__title">
+                        HƯỚNG DẪN
+                    </h3>
+
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>                            
+                            <h5 class="footer-links__text">Hỗ trợ</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Câu hỏi</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Thông báo</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Liên hệ</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Sitemap</h5>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-links__title">
+                        QUY ĐỊNH
+                    </h3>
+
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>                            
+                            <h5 class="footer-links__text">Quy chế</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Điều khoản</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Chính sách</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Khiếu nại</h5>
+                        </li>
+                        <li class="footer-links__item">
+                            <div class="footer-links__icon">
+                                <i class="ti-angle-right "></i>
+                            </div>
+                            <h5 class="footer-links__text">Góp ý</h5>
+                        </li>
+                    </ul>
+                </div> 
+               
+                
+            </div>
+            <div class="footer-container footer-container-copyright">
+                <div class="footer-container-copyright__slogan">SÀN GIAO DỊCH BẤT ĐỘNG SẢN THÁI VƯƠNG</div>
+                <div class="footer-container-copyright__text">Copyright© 2022 Thai Vuong. All rights Reservered</div>
+            </div>
+        </div>
+    </footer>
+    <!-- End: Footer -->
+
+    <!-- Start: zalo, fb, sdt button -->
+    <div class="social-button">
+        <div class="social-button-content">
+           
+            <a href="https://www.facebook.com/messages/t/100071785302846" target="_blank" class="mes">
+              <img src="https://nocodebuilding.com/wp-content/uploads/2020/07/fb.png" alt="Chat Messenger">
+              </a>
+            <a href="http://zalo.me/0334241843" target="_blank" class="zalo">
+               <img src="https://nocodebuilding.com/wp-content/uploads/2020/07/zl.png" alt="Chat Zalo">
+              </a>
+        </div>
+        <div class="hotline-phone-ring-wrap">
+          <div class="hotline-phone-ring">
+              <div class="hotline-phone-ring-circle"></div>
+              <div class="hotline-phone-ring-circle-fill"></div>
+              <div class="hotline-phone-ring-img-circle">
+              <a href="tel:0334241843" class="pps-btn-img">
+                  <img src="https://nocodebuilding.com/wp-content/uploads/2020/07/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+              </a>
+              </div>
+          </div>
+          <div class="hotline-bar">
+              <a href="tel:0334241843">
+                  <span class="text-hotline">0334 241 843</span>
+              </a>
+          </div>
+      </div>
+      <!-- End: zalo, fb, sdt button -->
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
